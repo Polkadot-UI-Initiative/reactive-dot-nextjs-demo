@@ -16,7 +16,7 @@ export default function Home() {
             height={38}
             priority
           />{" "}
-          <Link href="https://reactive-dot.com" className="underline">
+          <Link href="https://reactivedot.dev/" className="underline">
             + reactive dot
           </Link>
         </div>
