@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@polkadot-api/descriptors':
+        specifier: file:.papi/descriptors
+        version: file:.papi/descriptors(polkadot-api@1.11.0(jiti@2.4.2)(postcss@8.5.3)(rxjs@7.8.2))
       next:
         specifier: 15.3.2
         version: 15.3.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -597,6 +600,11 @@ packages:
 
   '@polkadot-api/codegen@0.15.0':
     resolution: {integrity: sha512-CNLAemBUZpPSyQF/W7Eso31utKMJp1g8iJb0DB9gFGo9TvdeJSTC2aUhtORaAmtsU7jMdu43eE5AHmk4aQyuKw==}
+
+  '@polkadot-api/descriptors@file:.papi/descriptors':
+    resolution: {directory: .papi/descriptors, type: directory}
+    peerDependencies:
+      polkadot-api: '>=1.11.0'
 
   '@polkadot-api/ink-contracts@0.3.1':
     resolution: {integrity: sha512-zcbd7JIGHD1FClusRCnQ6mqlannQIlCgIxEhTOXzBqEh5JRW6rIJcoat+edKjPEWFndXcDTXTpNRqg0YWBvRoQ==}
@@ -3919,6 +3927,10 @@ snapshots:
       '@polkadot-api/metadata-compatibility': 0.2.2
       '@polkadot-api/substrate-bindings': 0.13.0
       '@polkadot-api/utils': 0.1.2
+
+  '@polkadot-api/descriptors@file:.papi/descriptors(polkadot-api@1.11.0(jiti@2.4.2)(postcss@8.5.3)(rxjs@7.8.2))':
+    dependencies:
+      polkadot-api: 1.11.0(jiti@2.4.2)(postcss@8.5.3)(rxjs@7.8.2)
 
   '@polkadot-api/ink-contracts@0.3.1':
     dependencies:
