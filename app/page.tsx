@@ -19,6 +19,12 @@ export default function Home() {
           <Link href="https://reactivedot.dev/" className="underline">
             + reactive dot
           </Link>
+          <Link
+            href="https://github.com/Polkadot-UI-Initiative/reactive-dot-nextjs-demo"
+            className="underline"
+          >
+            ↗ github
+          </Link>
         </div>
         <Wallets />
         <Accounts />

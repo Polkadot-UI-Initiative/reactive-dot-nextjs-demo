@@ -39,14 +39,14 @@ function WalletsContent() {
                 <div>
                   {connectedWallets.includes(wallet) ? (
                     <button
-                      className="bg-red-500 text-white text-sm px-2 py-1 rounded-md"
+                      className="bg-red-500 text-white text-sm px-2 py-1 rounded-md cursor-pointer"
                       onClick={() => disconnectWallet(wallet)}
                     >
                       Disconnect
                     </button>
                   ) : (
                     <button
-                      className="bg-green-500 text-white text-sm px-2 py-1 rounded-md"
+                      className="bg-green-500 text-white text-sm px-2 py-1 rounded-md cursor-pointer"
                       onClick={() => connectWallet(wallet)}
                     >
                       Connect
