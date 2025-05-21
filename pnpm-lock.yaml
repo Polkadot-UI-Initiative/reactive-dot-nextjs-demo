@@ -25,8 +25,8 @@ importers:
         specifier: ^3
         version: 3.3.1
       '@reactive-dot/core':
-        specifier: ^0.40.2
-        version: 0.40.2(polkadot-api@1.11.0(jiti@2.4.2)(postcss@8.5.3)(rxjs@7.8.2))
+        specifier: ^0.40.4
+        version: 0.40.4(polkadot-api@1.11.0(jiti@2.4.2)(postcss@8.5.3)(rxjs@7.8.2))
       '@reactive-dot/react':
         specifier: ^0.40.4
         version: 0.40.4(@types/react@19.1.4)(polkadot-api@1.11.0(jiti@2.4.2)(postcss@8.5.3)(rxjs@7.8.2))(react@19.1.0)
@@ -678,11 +678,6 @@ packages:
 
   '@polkadot-api/ws-provider@0.4.0':
     resolution: {integrity: sha512-ZurjUHHAlQ1Ux8HiZz7mtkg1qjq6LmqxcHljcZxne0U7foCZrXdWHsohwlV8kUQUir5kXuDsNvdZN/MFCUMaVw==}
-
-  '@reactive-dot/core@0.40.2':
-    resolution: {integrity: sha512-1/LaMx71u0AYzfAaC7Oq60wmva6LoiBm55Im3d1M7E10ft/OBfSEhZJEGeAAKX0ZXrc62LAhTF/2gS+WSOG0jg==}
-    peerDependencies:
-      polkadot-api: '>=1.11.x'
 
   '@reactive-dot/core@0.40.4':
     resolution: {integrity: sha512-QvATAMdH4GQcjvzyHmuKuuSFeR+mSicDextPTKa5hK+imbGtBq0OOZ6xF80f9bbS1fapFg90/p8bK6v+d9cUOQ==}
@@ -4056,12 +4051,6 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@reactive-dot/core@0.40.2(polkadot-api@1.11.0(jiti@2.4.2)(postcss@8.5.3)(rxjs@7.8.2))':
-    dependencies:
-      '@reactive-dot/utils': 0.10.0
-      '@substrate/smoldot-discovery': 2.0.2
-      polkadot-api: 1.11.0(jiti@2.4.2)(postcss@8.5.3)(rxjs@7.8.2)
-
   '@reactive-dot/core@0.40.4(polkadot-api@1.11.0(jiti@2.4.2)(postcss@8.5.3)(rxjs@7.8.2))':
     dependencies:
       '@reactive-dot/utils': 0.10.0
@@ -4085,7 +4074,7 @@ snapshots:
     dependencies:
       '@ledgerhq/hw-transport-webusb': 6.29.4
       '@polkadot-api/ledger-signer': 0.2.0(@ledgerhq/hw-transport@6.31.4)
-      '@reactive-dot/core': 0.40.2(polkadot-api@1.11.0(jiti@2.4.2)(postcss@8.5.3)(rxjs@7.8.2))
+      '@reactive-dot/core': 0.40.4(polkadot-api@1.11.0(jiti@2.4.2)(postcss@8.5.3)(rxjs@7.8.2))
       buffer: 6.0.3
     transitivePeerDependencies:
       - '@ledgerhq/hw-transport'
@@ -4093,7 +4082,7 @@ snapshots:
 
   '@reactive-dot/wallet-walletconnect@0.17.16(@types/react@19.1.4)(polkadot-api@1.11.0(jiti@2.4.2)(postcss@8.5.3)(rxjs@7.8.2))(react@19.1.0)(typescript@5.8.3)(zod@3.24.4)':
     dependencies:
-      '@reactive-dot/core': 0.40.2(polkadot-api@1.11.0(jiti@2.4.2)(postcss@8.5.3)(rxjs@7.8.2))
+      '@reactive-dot/core': 0.40.4(polkadot-api@1.11.0(jiti@2.4.2)(postcss@8.5.3)(rxjs@7.8.2))
       '@walletconnect/modal': 2.7.0(@types/react@19.1.4)(react@19.1.0)
       '@walletconnect/universal-provider': 2.20.2(typescript@5.8.3)(zod@3.24.4)
     transitivePeerDependencies:
