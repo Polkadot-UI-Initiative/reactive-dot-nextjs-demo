@@ -18,7 +18,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@reactive-dot/core": "^0.40.2",
-    "@reactive-dot/react": "^0.40.3",
+    "@reactive-dot/react": "^0.40.4",
     "@reactive-dot/wallet-ledger": "^0.16.35",
     "@reactive-dot/wallet-walletconnect": "^0.17.16",
     "@tailwindcss/postcss": "^4",
